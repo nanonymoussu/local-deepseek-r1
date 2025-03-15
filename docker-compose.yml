@@ -11,6 +11,5 @@ services:
     image: nginx:1.27.4-alpine
     volumes:
       - ./src:/usr/share/nginx/html
-      - ./assets:/usr/share/nginx/assets
     ports:
       - 3001:80
